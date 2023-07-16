@@ -1,2 +1,31 @@
 /.DS_Store
 /.vscode
+
+# .gitignore file
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore Logs
+logs
+*.log
+npm-debug.log*
+
+# Ignore Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore build and release files
+dist/
+
+# Ignore environment files
+.env
+
+# IDE directories and files
+.idea
+*.swp
+*.swo
+*.swn
+*.iml
